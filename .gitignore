@@ -1,0 +1,12 @@
+*.o
+libhtsim.a
+/src/debruijn/libhtsim.a
+/src/opera/datacenter/htsim_ndp_dynexpTopology
+
+/traffic_gen/*.htsim
+/topologies/*.txt
+
+logout.dat
+FCT*.txt
+/src/debruijn/htsim_mixed_dyndebruijn
+/src/expander/datacenter/htsim_mixed_expander
