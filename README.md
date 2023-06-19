@@ -1,7 +1,7 @@
 # duo-simulator
 Packet-level simulator for "Duo: A High-Throughput Reconfigurable Datacenter Network Using Local Routing and Control"
 
-The simulator is an extension of the [Opera Simulator](https://github.com/TritonNetworking/opera-sim) which bases on `htsim`
+The simulator is an extension of the [Opera Simulator](https://github.com/TritonNetworking/opera-sim) which itself is an extension of the `htsim` [NDP simulator](https://github.com/nets-cs-pub-ro/NDP/tree/master/sim)
 
 ## Folders:
 - `src`: Source files of the simulator
