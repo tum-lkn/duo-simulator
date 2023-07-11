@@ -27,13 +27,13 @@ run(){
   echo "Endtime `date +%s`" >> "$fname"
 }
 
-#run 10 &
-#run 20 &
-#run 30 &
-#run 40 &
-#run 50 &
-#run 60 &
-#run 70 &
-run 80 &
+run 10 &
+run 20 &
+run 30
+run 40
+run 50
+run 60
+run 70
+run 80
 
 
