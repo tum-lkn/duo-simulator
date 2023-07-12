@@ -1,7 +1,7 @@
 
 % ----- define traffic pattern between HOSTS:
 
-Nrack=256;
+Nrack=64;
 Hosts_p_rack=8;
 
 H=Nrack*Hosts_p_rack; % number of hosts
@@ -9,9 +9,9 @@ H=Nrack*Hosts_p_rack; % number of hosts
 loadfrac0=0.6; % fraction of theoretically possible load
 
 % ----- define simulation length (time):
-totaltime=3.001; % seconds, probably want a little extra here...
+totaltime=10.001; % seconds, probably want a little extra here...
 
-filename=sprintf('flows_%dpercLoad_3sec_%.0fhosts',100*loadfrac0,H);
+filename=sprintf('flows_%dpercLoad_10sec_%.0fhosts',100*loadfrac0,H);
 
 % NOTE: only inter-rack traffic allowed
 
